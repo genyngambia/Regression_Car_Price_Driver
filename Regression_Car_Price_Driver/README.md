@@ -1,6 +1,6 @@
 # Data-Driven Insights into what drives the price of a car
 
-**Jupyter Notebook with code, experimentation, further insights, and deployment strategies: [here](https://github.com/genyngambia/ML-AI-Space/regression_car_price.ipynb).**
+**Jupyter Notebook with code, experimentation, further insights, and deployment strategies: [here](https://github.com/genyngambia/Regression_Car_Price_Driver/regression_car_price.ipynb).**
 
 
 ## Business Goal
