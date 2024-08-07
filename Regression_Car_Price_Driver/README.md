@@ -47,21 +47,20 @@ In this project, we employed various regression modeling techniques to predict c
 ### Model Results
 
 - **Linear Regression**:
-  - **Best Parameters**: {}
-  - **Root Mean Squared Error (RMSE)**: 2.1099830948689084
-  - **R-squared (R²)**: 0.4174754471135099
+  - **Root Mean Squared Error (RMSE)**: 2.10
+  - **R-squared (R²)**: 0.417
 
 - **Ridge Regression**:
   - **Best Parameters**: {'regressor__alpha': 1.0}
-  - **Root Mean Squared Error (RMSE)**: 2.047576836692355
-  - **R-squared (R²)**: 0.4514241312457983
+  - **Root Mean Squared Error (RMSE)**: 2.05
+  - **R-squared (R²)**: 0.451
 
 - **Lasso Regression**:
   - **Best Parameters**: {'regressor__alpha': 0.1}
-  - **Root Mean Squared Error (RMSE)**: 2.7196984735692027
-  - **R-squared (R²)**: 0.03217285506038092
+  - **Root Mean Squared Error (RMSE)**: 2.72
+  - **R-squared (R²)**: 0.0321
 
-Among these, the Ridge Regression model demonstrated the best performance with a Root Mean Squared Error (RMSE) of 2.047576836692355 and an R-squared (R²) value of 0.4514241312457983. This means that the model's predictions are off by about 2.05 units from the actual values of car prices, and approximately 45.14% of the variance in car prices is explained by the features in the model.
+Among these, the Ridge Regression model demonstrated the best performance with a Root Mean Squared Error (RMSE) of 2.05 and an R-squared (R²) value of 0.451. This means that the model's predictions are off by about 2.05 units from the actual values of car prices, and approximately 45.14% of the variance in car prices is explained by the features in the model.
 
 
 These metrics indicate that the Ridge Regression model provides a moderate level of accuracy in predicting car prices, making it the most suitable model for this dataset. The model's ability to perform feature selection through regularization helped in identifying the most significant predictors, thus enhancing interpretability and relevance.
